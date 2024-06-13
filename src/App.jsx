@@ -1,10 +1,16 @@
 import './App.css';
-import Hero from './sections/Hero/Hero';
+import Dale from './sections/Dale/Dale';
+import GProjects from './sections/Projects/GProjects'
+import WebAppProject from './sections/Projects/WebAppProject';
+import Skills from './sections/Skills/Skills';
 
 function App() {
   return ( 
     <>
-      <Hero />
+      <Dale />
+      <WebAppProject />
+      <GProjects />
+      <Skills />
     </> 
   );
 }
