@@ -10,7 +10,7 @@ function WebAppProject() {
        <WebAppProjectCard src={DMichaelCorp} 
        link='https://github.com/cdmalinao/DMC-Website'
        h3='D. Michael Corporation'/>
-       <p>Website Project I made in my OJT</p>
+      
     </div>
   </section>
   );

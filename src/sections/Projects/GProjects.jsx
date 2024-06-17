@@ -9,15 +9,17 @@ function GProjects() {
     <div className={styles.gprojectsContainer}>
 
       <GProjectCard src={Roblox} 
-       link='https://www.roblox.com/games/9821272782'
-       h3='Golden Heritage  | Owner'/> 
-       <p>
-        (Still Under Game Development) you can check my youtube channel for some gameplay of the game.
-       </p>
+       link="https://www.roblox.com/games/9821272782"
+       h3="Golden Heritage  | Owner"
+       p="(Still Under Game Development) you can check my youtube channel for some gameplay of the game."
+       />
+
        <GProjectCard src={Roblox} 
-       link='https://www.roblox.com/games/9821272782'
-       h3='Jojo Stardust Reborn | Head Developer'/>
-       <p>A JoJo's Bizarre Adventure Game, Inspired from Araki's manga series.</p>
+       link="https://www.roblox.com/games/9821272782"
+       h3="Jojo Stardust Reborn | Head Developer"
+       p="A JoJo's Bizarre Adventure Game, Inspired from Araki's manga series."
+       />
+       
        
     </div>
   </section>

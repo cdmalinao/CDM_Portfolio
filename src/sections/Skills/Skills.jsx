@@ -11,8 +11,7 @@ function Skills() {
            <SkillList src={checkMarkIcon} skill="CSS"/>
            <SkillList src={checkMarkIcon} skill="JavaScript"/>
            <SkillList src={checkMarkIcon} skill="Node"/>
-           <SkillList src={checkMarkIcon} skill="C#"/>
-           <SkillList src={checkMarkIcon} skill="C++"/>
+           <SkillList src={checkMarkIcon} skill="TypeScript"/>
         </div>
         <hr />
         <div className={styles.skillList}>
@@ -24,8 +23,17 @@ function Skills() {
         <hr />
         <div className={styles.skillList}>
            <SkillList src={checkMarkIcon} skill="Git"/>
-           <SkillList src={checkMarkIcon} skill="Webpack"/>
            <SkillList src={checkMarkIcon} skill="Bootstrap"/>
+        </div>
+        <hr />
+        <br />
+        <h1 className="sectionTitle">Game Developer Info</h1>
+        <div className={styles.skillList}>
+            <SkillList src={checkMarkIcon} skill="Full Stack"/>
+            <SkillList src={checkMarkIcon} skill="Animator"/>
+            <SkillList src={checkMarkIcon} skill="Model"/>
+            <SkillList src={checkMarkIcon} skill="VFX"/>
+            <SkillList src={checkMarkIcon} skill="SFX"/>
         </div>
     </section>
   );
